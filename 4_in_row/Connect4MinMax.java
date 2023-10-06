@@ -79,7 +79,7 @@ public class Connect4MinMax {
         for (int col = 0; col < 7; col++) {
             if (isValidMove(col)) {
                 makeMove(col);
-                int score = minimax(5, false); // Ajusta la profundidad aquí
+                int score = minimax(8, false); // Ajusta la profundidad aquí
                 undoMove(col);
                 if (score > bestScore) {
                     bestScore = score;
