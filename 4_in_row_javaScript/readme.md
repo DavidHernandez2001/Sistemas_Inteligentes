@@ -1,4 +1,4 @@
-#Proyecto conect 4
+# Proyecto conect 4
 
 Este proyecto es un agente que juega conect 4 o 5 o 6 en un tablero de n x n
 con un tiempo especifico determinado.
